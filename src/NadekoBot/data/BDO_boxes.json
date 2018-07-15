@@ -1,0 +1,543 @@
+{
+  "Shakatu Box": [
+    {
+      "itemname": "TET: Tungrad Necklace",
+      "dropchance": "0.005",
+      "img": "d"
+    },
+    {
+      "itemname": "TET: Tungrad Belt",
+      "dropchance": "0.005",
+      "img": ""
+    },
+    {
+      "itemname": "TET: Ogre Ring",
+      "dropchance": "0.005",
+      "img": ""
+    },
+    {
+      "itemname": "TET: Tungrad Earring",
+      "dropchance": "0.005",
+      "img": ""
+    },
+    {
+      "itemname": "TET: Narc Ear Accessory",
+      "dropchance": "0.005",
+      "img": ""
+    },
+    {
+      "itemname": "TET: Basilisk's Belt",
+      "dropchance": "0.005",
+      "img": ""
+    },
+    {
+      "itemname": "TET: Ring of Crescent Guardian",
+      "dropchance": "0.005",
+      "img": ""
+    },
+    {
+      "itemname": "TET: Forest Ronaros Ring",
+      "dropchance": "0.005",
+      "img": ""
+    },
+    {
+      "itemname": "TRI: Tungrad Necklace",
+      "dropchance": "0.02",
+      "img": ""
+    },
+    {
+      "itemname": "TRI: Tungrad Belt",
+      "dropchance": "0.02",
+      "img": ""
+    },
+    {
+      "itemname": "TRI: Ogre Ring",
+      "dropchance": "0.02",
+      "img": ""
+    },
+    {
+      "itemname": "TRI: Tungrad Earring",
+      "dropchance": "0.02",
+      "img": ""
+    },
+    {
+      "itemname": "TRI: Narc Ear Accessory",
+      "dropchance": "0.02",
+      "img": ""
+    },
+    {
+      "itemname": "TRI: Basilisk's Belt",
+      "dropchance": "0.02",
+      "img": ""
+    },
+    {
+      "itemname": "TRI: Ring of Crescent Guardian",
+      "dropchance": "0.02",
+      "img": ""
+    },
+    {
+      "itemname": "TRI: Forest Ronaros Ring",
+      "dropchance": "0.02",
+      "img": ""
+    },
+    {
+      "itemname": "Resplendent Alchemy Stone of Destruction",
+      "dropchance": "0.05",
+      "img": ""
+    },
+    {
+      "itemname": "Resplendent Alchemy Stone of Protection",
+      "dropchance": "0.05",
+      "img": ""
+    },
+    {
+      "itemname": "Advice of Valks(+100)",
+      "dropchance": "0.05",
+      "img": ""
+    },
+    {
+      "itemname": "Sharp Alchemy Stone of Destruction",
+      "dropchance": "0.1",
+      "img": ""
+    },
+    {
+      "itemname": "Sharp Alchemy Stone of Protection",
+      "dropchance": "0.1",
+      "img": ""
+    },
+    {
+      "itemname": "PRI: Tungrad Necklace",
+      "dropchance": "0.5",
+      "img": ""
+    },
+    {
+      "itemname": "PRI: Tungrad Belt",
+      "dropchance": "0.49",
+      "img": ""
+    },
+    {
+      "itemname": "PRI: Ogre Ring",
+      "dropchance": "0.49",
+      "img": ""
+    },
+    {
+      "itemname": "PRI: Tungrad Earring",
+      "dropchance": "0.49",
+      "img": ""
+    },
+    {
+      "itemname": "PRI: Narc Ear Accessory",
+      "dropchance": "0.49",
+      "img": ""
+    },
+    {
+      "itemname": "PRI: Basilisk's Belt",
+      "dropchance": "0.48",
+      "img": ""
+    },
+    {
+      "itemname": "PRI: Ring of Crescent Guardian",
+      "dropchance": "0.48",
+      "img": ""
+    },
+    {
+      "itemname": "PRI: Forest Ronaros Ring",
+      "dropchance": "0.48",
+      "img": ""
+    },
+    {
+      "itemname": "Tungrad Necklace",
+      "dropchance": "0.96",
+      "img": ""
+    },
+    {
+      "itemname": "Tungrad Belt",
+      "dropchance": "0.95",
+      "img": ""
+    },
+    {
+      "itemname": "Ogre Ring",
+      "dropchance": "0.94",
+      "img": ""
+    },
+    {
+      "itemname": "Tungrad Earring",
+      "dropchance": "0.93",
+      "img": ""
+    },
+    {
+      "itemname": "Narc Ear Accessory",
+      "dropchance": "2.3",
+      "img": ""
+    },
+    {
+      "itemname": "Basilisk's Belt",
+      "dropchance": "2.2",
+      "img": ""
+    },
+    {
+      "itemname": "Ring of Crescent Guardian",
+      "dropchance": "2.2",
+      "img": ""
+    },
+    {
+      "itemname": "Forest Ronaros Ring",
+      "dropchance": "2.1",
+      "img": ""
+    },
+    {
+      "itemname": "Hard Black Crystal Shard(X12)",
+      "dropchance": "8.3",
+      "img": ""
+    },
+    {
+      "itemname": "Sharp Black Crystal Shard(X6)",
+      "dropchance": "11",
+      "img": ""
+    },
+    {
+      "itemname": "Memory Fragment (x25)",
+      "dropchance": "63",
+      "img": ""
+    }
+  ],
+  "Mysterious Belt": [
+    {
+      "itemname": "Basilisk's Belt",
+      "dropchance": "0.03",
+      "img": ""
+    },
+    {
+      "itemname": "Tree Spirit Belt",
+      "dropchance": "0.05",
+      "img": ""
+    },
+    {
+      "itemname": "Centaurus Belt",
+      "dropchance": "0.08",
+      "img": ""
+    },
+    {
+      "itemname": "Ancient Weapon Core",
+      "dropchance": "0.15",
+      "img": ""
+    },
+    {
+      "itemname": "Belt of Shultz the Gladiator",
+      "dropchance": "0.5",
+      "img": ""
+    },
+    {
+      "itemname": "Rhutum Elite Belt",
+      "dropchance": "1",
+      "img": ""
+    },
+    {
+      "itemname": "Gartner Belt",
+      "dropchance": "1",
+      "img": ""
+    },
+    {
+      "itemname": "Hesus Belt",
+      "dropchance": "16.2",
+      "img": ""
+    },
+    {
+      "itemname": "Kalis Belt",
+      "dropchance": "16.2",
+      "img": ""
+    },
+    {
+      "itemname": "Talis Belt",
+      "dropchance": "16.2",
+      "img": ""
+    },
+    {
+      "itemname": "Yuria Belt",
+      "dropchance": "16.2",
+      "img": ""
+    },
+    {
+      "itemname": "Elisha Belt",
+      "dropchance": "16.2",
+      "img": ""
+    },
+    {
+      "itemname": "Bares Belt",
+      "dropchance": "16.2",
+      "img": ""
+    }
+  ],
+  "Mysterious Earring": [
+    {
+      "itemname": "Blue Whale Molar Earring",
+      "dropchance": "0.03",
+      "img": ""
+    },
+    {
+      "itemname": "Witch's Earring",
+      "dropchance": "0.01",
+      "img": ""
+    },
+    {
+      "itemname": "Red Coral Earring",
+      "dropchance": "0.15",
+      "img": ""
+    },
+    {
+      "itemname": "Mesto Earring",
+      "dropchance": "0.5",
+      "img": ""
+    },
+    {
+      "itemname": "Token of Friendship",
+      "dropchance": "0.5",
+      "img": ""
+    },
+    {
+      "itemname": "Blue Coral Earring",
+      "dropchance": "0.5",
+      "img": ""
+    },
+    {
+      "itemname": "Ridell Earring",
+      "dropchance": "1",
+      "img": ""
+    },
+    {
+      "itemname": "Hesus Earring",
+      "dropchance": "16.2",
+      "img": ""
+    },
+    {
+      "itemname": "Kalis Earring",
+      "dropchance": "16.2",
+      "img": ""
+    },
+    {
+      "itemname": "Talis Earring",
+      "dropchance": "16.2",
+      "img": ""
+    },
+    {
+      "itemname": "Yuria Earring",
+      "dropchance": "16.2",
+      "img": ""
+    },
+    {
+      "itemname": "Elisha Earring",
+      "dropchance": "16.2",
+      "img": ""
+    },
+    {
+      "itemname": "Bares Earring",
+      "dropchance": "16.2",
+      "img": ""
+    }
+  ],
+  "Mysterious Necklace": [
+    {
+      "itemname": "Ogre Ring",
+      "dropchance": "0.03",
+      "img": ""
+    },
+    {
+      "itemname": "Ancient Guardian's Seal",
+      "dropchance": "0.1",
+      "img": ""
+    },
+    {
+      "itemname": "Bensho's Necklace",
+      "dropchance": "0.3",
+      "img": ""
+    },
+    {
+      "itemname": "Scarla Necklace",
+      "dropchance": "0.5",
+      "img": ""
+    },
+    {
+      "itemname": "Hesus Necklace",
+      "dropchance": "18",
+      "img": ""
+    },
+    {
+      "itemname": "Kalis Necklace",
+      "dropchance": "18",
+      "img": ""
+    },
+    {
+      "itemname": "Talis Necklace",
+      "dropchance": "18",
+      "img": ""
+    },
+    {
+      "itemname": "Yuria Necklace",
+      "dropchance": "18",
+      "img": ""
+    },
+    {
+      "itemname": "Elisha Necklace",
+      "dropchance": "18",
+      "img": ""
+    },
+    {
+      "itemname": "Bares Necklace",
+      "dropchance": "18",
+      "img": ""
+    }
+  ],
+  "Mysterious Ring": [
+    {
+      "itemname": "Ring of Crescent Guardian",
+      "dropchance": "0.03",
+      "img": ""
+    },
+    {
+      "itemname": "Ring of Cadry Guardian",
+      "dropchance": "0.1",
+      "img": ""
+    },
+    {
+      "itemname": "Mark of Shadow",
+      "dropchance": "0.2",
+      "img": ""
+    },
+    {
+      "itemname": "Blue Coral Ring",
+      "dropchance": "0.5",
+      "img": ""
+    },
+    {
+      "itemname": "Red Coral Ring",
+      "dropchance": "0.5",
+      "img": ""
+    },
+    {
+      "itemname": "Outlaw's Ring",
+      "dropchance": "1",
+      "img": ""
+    },
+    {
+      "itemname": "Nert Ring",
+      "dropchance": "1",
+      "img": ""
+    },
+    {
+      "itemname": "Shrine Guardian Token",
+      "dropchance": "1",
+      "img": ""
+    },
+    {
+      "itemname": "Hesus Ring",
+      "dropchance": "16",
+      "img": ""
+    },
+    {
+      "itemname": "Kalis Ring",
+      "dropchance": "16",
+      "img": ""
+    },
+    {
+      "itemname": "Talis Ring",
+      "dropchance": "16",
+      "img": ""
+    },
+    {
+      "itemname": "Yuria Ring",
+      "dropchance": "16",
+      "img": ""
+    },
+    {
+      "itemname": "Elisha Ring",
+      "dropchance": "16",
+      "img": ""
+    },
+    {
+      "itemname": "Bares Ring",
+      "dropchance": "16",
+      "img": ""
+    }
+  ],
+  "Fine accessory box":[
+  {
+   "itemname": "Ogre Ring",
+      "dropchance": "15",
+      "img": ""
+  },
+  {
+   "itemname": "Tungrad Earring",
+      "dropchance": "20",
+      "img": ""
+  },
+  {
+   "itemname": "Basilisk's Belt",
+      "dropchance": "20",
+      "img": ""
+  },
+  {
+   "itemname": "Ring of Crescent Guardian",
+      "dropchance": "45",
+      "img": ""
+  }
+  ],
+  "Appreciation Gift":[
+  {
+  "itemname":"Kutum's Sealed Sub-weapon Box",
+  "dropchance":"20",
+  "img":""
+  },
+  {
+  "itemname":"Dandelion Weapon Box",
+  "dropchance":"10",
+  "img":""
+  },
+  {
+  "itemname":"Kzarka's Sealed Weapon Box",
+  "dropchance":"10",
+  "img":""
+  },
+  {
+  "itemname":"Dim Tree Spirit's Armor",
+  "dropchance":"7.5",
+  "img":""
+  },
+  {
+  "itemname":"Giath's Helmet",
+  "dropchance":"7.5",
+  "img":""
+  },
+  {
+  "itemname":"Bheg's Gloves",
+  "dropchance":"7.5",
+  "img":""
+  },
+  {
+  "itemname":"Muskan's Shoes",
+  "dropchance":"7.5",
+  "img":""
+  },
+  {
+  "itemname":"Urugon's Shoes",
+  "dropchance":"7.5",
+  "img":""
+  },
+  {
+  "itemname":"Griffon's Helmet",
+  "dropchance":"7.5",
+  "img":""
+  },
+  {
+  "itemname":"Nouver's Sealed Weapon Box",
+  "dropchance":"7.5",
+  "img":""
+  },
+  {
+  "itemname":"Red Nose's Armor",
+  "dropchance":"7.5",
+  "img":""
+  }
+ 
+  ]
+  
+}
