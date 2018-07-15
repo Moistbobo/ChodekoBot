@@ -33,8 +33,8 @@ namespace NadekoBot.Modules.BDO
         public async Task TaxInfo()
         {
             int totalTax = Convert.ToInt32(System.IO.File.ReadAllText(@"data/tax.txt"));
-
-            await ReplyConfirmLocalized("tax_info", totalTax, _bc.BotConfig.CurrencySign).ConfigureAwait(false);
+        
+            await ReplyConfirmLocalized("tax_info", Bc.BotConfig.CurrencyPluralName, totalTax, Bc.BotConfig.CurrencySign).ConfigureAwait(false);
         }
     }
 

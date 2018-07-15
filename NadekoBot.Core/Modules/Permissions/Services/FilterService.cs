@@ -1,4 +1,5 @@
 ﻿using System.Collections.Concurrent;
+using System;
 using System.Linq;
 using System.Threading.Tasks;
 using Discord;
@@ -26,6 +27,9 @@ namespace NadekoBot.Modules.Permissions.Services
 
         public ConcurrentHashSet<ulong> WordFilteringChannels { get; }
         public ConcurrentHashSet<ulong> WordFilteringServers { get; }
+
+        private readonly ICurrencyService _cs;
+        private readonly IBotConfigProvider _bc;
 
         public ConcurrentHashSet<string> FilteredWordsForChannel(ulong channelId, ulong guildId)
         {
@@ -67,10 +71,12 @@ namespace NadekoBot.Modules.Permissions.Services
             return words;
         }
 
-        public FilterService(DiscordSocketClient _client, NadekoBot bot, DbService db)
+        public FilterService(DiscordSocketClient _client, NadekoBot bot, DbService db, ICurrencyService currency, IBotConfigProvider bc)
         {
             _log = LogManager.GetCurrentClassLogger();
             _db = db;
+            _cs = currency;
+            _bc = bc;
 
             InviteFilteringServers = new ConcurrentHashSet<ulong>(bot.AllGuildConfigs.Where(gc => gc.FilterInvites).Select(gc => gc.GuildId));
             InviteFilteringChannels = new ConcurrentHashSet<ulong>(bot.AllGuildConfigs.SelectMany(gc => gc.FilterInvitesChannelIds.Select(fci => fci.ChannelId)));
@@ -104,7 +110,7 @@ namespace NadekoBot.Modules.Permissions.Services
         public async Task<bool> TryBlockEarly(IGuild guild, IUserMessage msg)
             => !(msg.Author is IGuildUser gu) //it's never filtered outside of guilds, and never block administrators
                 ? false
-                : !gu.GuildPermissions.Administrator && (await FilterInvites(guild, msg).ConfigureAwait(false) || await FilterWords(guild, msg).ConfigureAwait(false));
+                : /*!gu.GuildPermissions.Administrator && */(await FilterInvites(guild, msg).ConfigureAwait(false) || await FilterWords(guild, msg).ConfigureAwait(false));
 
         public async Task<bool> FilterWords(IGuild guild, IUserMessage usrMsg)
         {
@@ -125,6 +131,24 @@ namespace NadekoBot.Modules.Permissions.Services
                     {
                         try
                         {
+                            using (var uow = _db.UnitOfWork)
+                            {
+                                long usrCur = uow.DiscordUsers.GetUserCurrency(usrMsg.Author.Id);
+                                Random r = new Random();
+                                double penaltyPercent = (0.1 + (0.5 - 0.1 ) * r.NextDouble());
+                                double penaltyAmount = usrCur * penaltyPercent;
+                                await _cs.RemoveAsync(usrMsg.Author.Id, $"You said a bad word", (long)(penaltyAmount)).ConfigureAwait(false);
+                                
+                                var eb = new EmbedBuilder().WithErrorColor().WithDescription(
+                                    string.Format("Your message contains a bad word and you have been taxed {0} ({1}%) of your {2}", (int)penaltyAmount, (int)(penaltyPercent*100), _bc.BotConfig.CurrencyPluralName));
+
+                                int totalTax = Convert.ToInt32(System.IO.File.ReadAllText(@"data/tax.txt"));
+                                totalTax += (int)penaltyAmount;
+                                System.IO.File.WriteAllText(@"data/tax.txt", totalTax.ToString());
+
+                                await usrMsg.Channel.SendMessageAsync(usrMsg.Author.Mention, embed: eb.Build());
+                            }
+
                             await usrMsg.DeleteAsync().ConfigureAwait(false);
                         }
                         catch (HttpException ex)

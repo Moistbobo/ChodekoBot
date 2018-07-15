@@ -3408,5 +3408,98 @@
       "{0}updatescheck commit",
       "{0}updatescheck release"
     ]
+  },
+  "enchant": {
+    "cmd": "enchant enc",
+    "desc": "Attempt to enhance using specified failstacks. Chances are based on datamined values, so actual enchantments rates may vary.",
+    "usage": [
+      ".enc Pen 69",
+      ".enc Pen 69 Gifted's Asshole"
+    ]
+  },
+  "value": {
+    "cmd": "value val",
+    "desc": "Calculate the value of an item sold on the marketplace.",
+    "usage": [
+      ".val 6969"
+    ]
+  },
+  "patchnotes": {
+    "cmd": "patchnotes pn",
+    "desc": "Fetch patch notes from cuckao. Maximum of 5 previous ones.",
+    "usage": [
+      ".patchnotes",
+      ".patchnotes 3"
+    ]
+  },
+  "energyregen": {
+    "cmd": "energyregen er",
+    "desc": "Calculate the energy that will be regenerated over a time frame.",
+    "usage": [
+      ".er hours minutes",
+      ".er 5 43"
+    ]
+  },
+  "calctradeinforlevel": {
+    "cmd": "calctradeins cti",
+    "desc": "Shows the amount of contribution trade-ins required to raise your contribution by 1 from the specified level.",
+    "usage": [
+      ".cti contributionlevel",
+      ".cti 235"
+    ]
+  },
+  "calctradeinforlevelrange": {
+    "cmd": "calctradeinsrange ctir",
+    "desc": "Shows the amount of contribution trade-ins required to raise your contribution from the startlevel to targetlevel.",
+    "usage": [
+      ".ctir startlevel targetlevel",
+      ".ctir 1 400"
+    ]
+  },
+  "openbox": {
+    "cmd": "open op",
+    "desc": "Open one of BDO's many RNG boxes",
+    "usage": [
+      ".open Shakatu Box"
+    ]
+  },
+  "openboxmultiple": {
+    "cmd": "openm opm",
+    "desc": "Open one of BDO's many RNG boxes several times",
+    "usage": [
+      ".openm 100 Shakatu Box",
+      ".opm 1000 Mysterious Necklace"
+    ]
+  },
+  "showboxlist": {
+    "cmd": "showboxlist",
+    "desc": "Show the boxes that you can open",
+    "usage": [
+      ".showboxlist"
+    ]
+  },
+  "enchantuntilsuccess": {
+    "cmd": "enchante ence",
+    "desc": "Attempt to enchant an item to the specified level until it succeeds",
+    "usage": [
+      ".enchante pen 69",
+      ".ence pen 68 Gifted's Asshole"
+    ]
+  },
+  "enchantmarathon": {
+    "cmd": "enchantmarathon enchantm encm",
+    "desc": "Simulates an enchant until success from one enchantment to another, while accounting for failures.\n**Assumes maximum stacks on each enchant.",
+    "usage": [
+      ".enchantmarathon 1 pen",
+      ".encm 1 pen Gifted's Asshole"
+    ]
+  },
+  "taxinfo": {
+    "cmd": "taxinfo ti",
+    "desc": "Check the total amount of taxes collected from the oppressed lowerclass.",
+    "usage": [
+      ".taxinfo",
+      ".ti"
+    ]
   }
 }
